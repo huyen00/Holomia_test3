@@ -1,10 +1,4 @@
 
-//xu lý nút search 
-$(document).ready(function(){
-    $('.search-icon').click(function(event){
-        $('.main-search').addClass('tiemkiem');
-    });
-});
 //quay lại đầu trang
 $(document).ready(function() {
     $(window).scroll(function(event) {
@@ -24,3 +18,11 @@ $(document).ready(function() {
     });
     
  });
+
+ //xư lý ẩn hiện thanh tìm kiếm
+ $(document).ready(function(){
+     document.getElementById('tk').style.display="none";
+     $('.search-icon').click(function(event){
+        document.getElementById('tk').style.display="block";
+     })
+ })

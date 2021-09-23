@@ -18,6 +18,9 @@
 a{
     text-decoration: none !important;
 }
+a:hover{
+    color:#fff !important;
+}
 /* menu logo */
 .sub-menu a{
     display: none;

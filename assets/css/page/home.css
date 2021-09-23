@@ -14,6 +14,9 @@
 .text-star{
     color:#EC9123;
 }
+a:hover{
+    color:#fff !important;
+}
 .header-one{
     background: rgba(18,16,47,0.96) none repeat scroll 0 0 !important;
 }
@@ -320,6 +323,7 @@ span#btn-prev:hover{
     text-align: center;
     display: block;
     position: absolute;
+
     padding: 20px;
     top: 57%;
     left: 0;
@@ -330,42 +334,52 @@ span#btn-prev:hover{
 }
 .owl-nav{
     position: absolute;
+    display: flex;
+
     top: 35%;
     width: 100%;
-    display: flex;
+    
 }
 button.owl-prev{
-    color: #fff !important;
     font-size: 18px !important;
     margin-top: -20px !important;
-    position: absolute !important;
     top: 50% !important;
-    text-align: center !important;
     line-height: 39px !important;
     opacity: 0;
-    border: 1px solid #EC9123 !important;
-    background: #EC9123 !important;
     width: 40px !important;
     height: 40px !important;
+
+    position: absolute !important;
+    text-align: center !important;
+
+    border: 1px solid #EC9123 !important;
+    background: #EC9123 !important;
+    color: #fff !important;
+    
 }
 .owl-theme:hover button.owl-prev{
     opacity: 1;
     -webkit-animation: 0.3s chuyensau forwards;
  }
 button.owl-next{
-    color: #fff !important;
+    
     margin-left: 95% !important;
     font-size: 18px !important;
     margin-top: -20px !important;
-    position: absolute !important;
     top: 50% !important;
-    text-align: center !important;
+    
     line-height: 39px !important;
     opacity: 0;
-    border: 1px solid #EC9123 !important;
-    background: #EC9123 !important;
+   
     width: 40px !important;
     height: 40px !important;
+
+    position: absolute !important;
+    text-align: center !important;
+
+    border: 1px solid #EC9123 !important;
+    background: #EC9123 !important;
+    color: #fff !important;
 }
 .owl-theme:hover button.owl-next{
    opacity: 1;
@@ -454,12 +468,23 @@ button.owl-next{
     opacity: 0;
 }
 .video-play{
-    position: absolute;
-    text-align: center;
+    
+    width: 80px;
+    height: 80px;
+    left: 0;
+    right: 0;
+    font-size: 34px;
+    line-height: 78px;
+    border-radius: 3px;
+    top: 35%;
+    margin-top: -40px;
 
-    top:40%;
-    right:40%;
-    font-size: 50px;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+   
+    color: #fff;
     z-index: 10;
 }
 .best-product:hover .product-img::after{
@@ -482,18 +507,19 @@ button.owl-next{
     text-align: center;
 }
 .title-our-gallery{
-    display: inline-block;
     font-size: 50px;
     font-weight: 700;
     line-height: 44px;
+
+    display: inline-block;
     text-transform: capitalize;
 }
 @media only screen and (min-width:1024px){
     .content-gallery p{
         margin-top:0.7rem;
         width: 520px;
-        text-align: center;
         margin-left: 30%;
+        text-align: center;
         color: #cecde9 !important;
     }
 }
@@ -578,15 +604,16 @@ button.owl-next{
     width:49%;
 }
 .tab-link{
-    background: #0d0b26;
     border-radius: 0;
-    display: block;
     font-weight: 600;
     padding: 7px 20px 16px;
+    margin: 10px 0px;
     color: #fff;
     border: 1px solid none;
     box-shadow: 5px 5px 10px #0c1925, -5px -5px 10px #0c1925;
-    margin: 10px 0px;
+
+    display: block;
+    background: #0d0b26;
     text-decoration: none !important;
 }
 .title-tab-competition{
@@ -594,8 +621,8 @@ button.owl-next{
     text-decoration: none;
 }
 .tab-img{
-    width:36%;
     display: inline-block;
+    width:36%;
     margin-right: 20px;
     width: 80px;
     height: 80px;
@@ -664,7 +691,7 @@ button.owl-next{
     line-height: 78px;
     border-radius: 3px;
     color: #fff;
-    top: 40%;
+    top: 45%;
     margin-top: -40px;
     position: absolute;
     z-index: 10;
