@@ -294,8 +294,11 @@ span#btn-prev:hover{
 .image:hover .image-layer{
     opacity: 1;
 }
+
 .image:hover .main-img{
     opacity: 1;
+    visibility: visible;
+  
 }
 .image-layer{
     position: absolute;
@@ -327,10 +330,14 @@ span#btn-prev:hover{
     padding: 20px;
     top: 57%;
     left: 0;
-    z-index: 2;
+    z-index: 2000;
     margin-top: -40px;
-    opacity: 1;
+    opacity: 0;
+    visibility: hidden;
     right: 0;
+}
+a{
+    color:#fff;
 }
 .owl-nav{
     position: absolute;

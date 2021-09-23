@@ -17,10 +17,14 @@
 }
 a{
     text-decoration: none !important;
+    color:#fff !important;
 }
 a:hover{
     color:#fff !important;
 }
+
+
+
 /* menu logo */
 .sub-menu a{
     display: none;
@@ -332,6 +336,10 @@ span#btn-prev:hover{
     left: 0;
     margin: 0px auto 30px;
 }
+.item:hover .main-img{
+    opacity: 1;
+    visibility: visible;
+}
 .main-img{
     text-align: center;
     display: block;
@@ -341,7 +349,8 @@ span#btn-prev:hover{
     left: 0;
     z-index: 2;
     margin-top: -40px;
-    opacity: 1;
+    opacity: 0;
+    visibility: hidden;
     right: 0;
 }
 .owl-nav{
@@ -397,7 +406,7 @@ button.owl-next{
         margin-top:0.7rem;
         width: 520px;
         text-align: center;
-        margin-left: 30%;
+        margin-left: 27%;
         color: #cecde9 !important;
     }
 }

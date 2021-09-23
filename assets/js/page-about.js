@@ -37,6 +37,12 @@ $(document).ready(function() {
          $(`#compe_${id}`).addClass('active');
      }
     })
+ })
 
-   
-       })
+ //xử lý khi active 
+ $(document).ready(function(){
+   $('.compe-item').click(function(event){
+     $('.compe-item.active').removeClass('active');
+     $(this).addClass('active');
+   });
+ });
