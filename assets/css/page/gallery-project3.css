@@ -1,0 +1,296 @@
+/* #EC9123;*/
+*{
+    color:#fff ;   
+}
+.row{
+    margin-right: 0px; 
+     margin-left: 0px;
+}
+.container-fluid{
+    padding-left:0 !important;
+    padding-right:0 !important;
+    background: rgba(18,16,47,0.96) ;
+
+}
+.text-gray{
+    color: #cecde9;
+}
+a{
+    text-decoration: none !important;
+}
+.bg-color-1{
+    background: #12102f;
+}
+.bg-color-2{
+    background: #100e2e;
+}
+hr{
+    display: none;
+}
+/* menu logo */
+.sub-menu a{
+    display: none;
+    padding:0.5rem 1rem;
+    text-decoration: none;
+    color:#fff;
+}
+.sub-menu{
+    width:220px;
+    padding-left:0;
+    top: 90%;
+    border-top: 2px solid #EC9123;
+
+    background: rgba(18,16,47,0.96);
+    position: absolute;
+   
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+}
+.nav-item:hover .sub-menu a{
+    display: block;
+    font-weight: 600;
+}
+.nav-link{
+    color :#fff !important;
+    font-weight: 600;
+}
+.nav-item:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+
+}
+.sub-menu .sub-item:hover{
+    background-color: #EC9123;
+}
+.nav-item:hover{
+    border-top:1px solid #EC9123 ;
+    
+}
+.nav-item:hover .nav-link{
+    color:#EC9123 !important;
+}
+/*xu lys search */
+.main-search{
+    display: none !important;
+}
+.search-visible{
+    display: block;
+}
+
+/* main */
+/* OUR GAME */
+.aboutUs{
+    position: relative;
+}
+.aboutUs-img{
+    position: relative;
+}
+.background-about{
+    position: absolute;
+    background: rgba(18,16,47,0.60) none repeat scroll 0 0;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+}
+
+.background-about h2.title{
+    position: absolute;
+    top:50%;
+    margin-left:40%;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+.menu-home-page{
+    position: absolute;
+    width:100%;
+    top:90%;
+}
+.menu-home{
+    
+    padding-left: 0;
+    width: 80%;
+    margin-left: 10%;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    padding: 22px 30px;
+
+    /*color*/
+    background: burlywood;
+    background: #0d0b26;
+    box-shadow: 2px 2px 5px #0d0b26, 0px 0px 0px #0d0b26;
+
+    /* center */
+    justify-content: center;
+}
+.menu-item{
+    list-style: none;
+    margin-right:2rem;
+}
+.menu-link{
+    color: #fff;
+    font-weight: 600;
+}
+/* image */
+/* .hinh{
+    width:33.33%;
+}
+.img-content:hover .gallery-layer{
+    opacity: 1;
+}
+.img-content:hover .image-item{
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+.hidden{
+    opacity:0;
+    visibility: hidden;
+    display: none;
+} */
+.hinh{
+    width:33.33%;
+    height:400px;
+} 
+.hinh-item{
+    position: relative;
+   
+}
+a.image-hinh i{
+    position: absolute;
+    text-align: center;
+
+    top:40%;
+    right:40%;
+    font-size: 50px;
+    z-index: 10;
+}
+.menu-gallery{
+    width:920px;
+    padding:10px 12px;
+    margin-top:30px;
+
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin:auto;
+} 
+.menu-img-item.active{
+    padding:0.5rem 1rem;
+    border-radius:4px;
+
+    background-color: #EC9123;
+}
+.menu-img-item{
+    margin-left:2rem;
+    cursor: pointer;
+}
+
+/* quay lại đau trang */
+.back-to-top {
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    right:30px;
+    bottom: 50px;
+    margin-left: -25px;
+
+    text-align: center;
+    vertical-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+    background: #EC9123;
+    color: whitesmoke;
+    
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+ }
+ .back-to-top.hien-ra{
+    visibility: visible;
+    opacity: 1;
+ }
+
+
+/*contact  */
+.information{
+    width:32%;
+}
+.compet-game{
+    width:32%;
+   padding-left:1rem
+}
+.subscribe{
+    width:32%;
+    padding-left:2rem;
+}
+.infor-icon{
+    padding-left:0;
+    display: flex;
+}
+.infor-icon-item{
+    margin-right:0.6rem;
+
+    list-style: none;
+    display: flex;
+}
+.infor-icon-link{
+    margin-top:1rem;
+    padding:0.5rem 0.8rem;
+    border-radius: 4px;
+
+    background-color: #EC9123;
+    display: flex;
+}
+.infor-icon-link:hover{
+   border:1px solid #EC9123;
+    background:rgba(18,16,47,0.90) none repeat scroll 0 0;
+}
+a{
+    text-decoration: none !important;
+}
+.compet-content-left{
+    list-style-type: square;
+    
+}
+.compet-content-right{
+    list-style-type: square;
+    
+}
+.compet-content-item{
+    color:#EC9123;
+}
+.compet-content-link{
+    color: #cecde9 !important;
+}
+.text-gray{
+    color: #cecde9;
+}
+.btn-sub{
+    padding:0.8rem 2rem;
+    margin-top:2rem !important;
+    border:1px solid #EC9123;
+    border-radius:4px;
+    font-size: 1.325rem;
+
+    background-color: #EC9123;
+    text-decoration: none;
+    color:#cecde9;
+   
+}
+.btn-sub:hover{
+    background: none;
+    color: #EC9123;
+}
+.input-email{
+    background: none !important;
+}
+footer{
+    background: #0c0a24;
+}
+

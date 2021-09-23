@@ -1,0 +1,123 @@
+@media only screen and (max-width:739px){
+    .search{
+        display: none;
+    }
+    .background-about h2.title {
+        position: absolute;
+        top: 50%;
+        margin-left: 45%;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .container{
+        padding-right:40px !important;
+        padding-left:40px !important;
+    }
+    
+    /* image */
+    .hinh{
+        width:98%;
+        height:400px;
+    } 
+    .hinh-item{
+        position: relative;
+    
+    }
+    .menu-gallery{
+        width:320px;
+        padding:5px 7px;
+        margin-top:30px;
+    
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin:auto;
+    } 
+    .menu-img-item.active{
+        padding:0.5rem 0.6rem;
+        border-radius:4px;
+    
+        background-color: #EC9123;
+    }
+    .menu-img-item{
+        margin-left:0.7rem;
+    }
+    /*contact */
+    .information{
+        width:98%;
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .compet-game{
+        width:98%;
+        padding:2rem 1rem;
+    }
+    .subscribe{
+        width:98%;
+        padding:2rem;
+    }
+}
+
+/* tablet  */
+@media only screen and (min-width:740px) and (max-width:1023px){
+    .search{
+        display: none;
+    }
+    .background-about h2.title {
+        position: absolute;
+        top: 50%;
+        margin-left: 35%;
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    
+
+    /* image */
+    .hinh{
+        width:50%;
+        height:400px;
+    } 
+    .hinh-item{
+        position: relative;
+    
+    }
+    .menu-gallery{
+        width:520px;
+        padding:7px 9px;
+        margin-top:30px;
+    
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin:auto;
+    } 
+    .menu-img-item.active{
+        padding:0.5rem 0.6rem;
+        border-radius:4px;
+    
+        background-color: #EC9123;
+    }
+    .menu-img-item{
+        margin-left:0.9rem;
+    }
+    .back-to-top{
+        display: none;
+    }
+    /*contact */
+    .information{
+        width:49%;
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .compet-game{
+        width:49%;
+        padding:2rem 1rem;
+    }
+    .subscribe{
+        width:49%;
+        padding:2rem;
+    }
+    
+}

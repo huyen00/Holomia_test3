@@ -1,0 +1,78 @@
+@media only screen and (max-width:739px){
+    .search{
+        display: none;
+    }
+    .background-about h2.title {
+        position: absolute;
+        top: 50%;
+        margin-left: 45%;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .container{
+        padding-right:40px !important;
+        padding-left:40px !important;
+    }
+    /* game */
+    .blog-left{
+        width:98%;
+    }
+    .game-new-right{
+        width:98%;
+        margin-top:2rem;
+    }
+    .game-item{
+        display: block !important;
+    }
+    .game{
+        display: block;
+    }
+    /*contact */
+    .information{
+        width:98%;
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .compet-game{
+        width:98%;
+        padding:2rem 1rem;
+    }
+    .subscribe{
+        width:98%;
+        padding:2rem;
+    }
+}
+
+/* tablet  */
+@media only screen and (min-width:740px) and (max-width:1023px){
+    .search{
+        display: none;
+    }
+    .background-about h2.title {
+        position: absolute;
+        top: 50%;
+        margin-left: 40%;
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    .back-to-top{
+        display: none;
+    }
+    /*contact */
+    .information{
+        width:49%;
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .compet-game{
+        width:49%;
+        padding:2rem 1rem;
+    }
+    .subscribe{
+        width:49%;
+        padding:2rem;
+    }
+    
+}

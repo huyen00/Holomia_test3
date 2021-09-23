@@ -1,0 +1,141 @@
+@media only screen and (max-width:739px){
+    .search{
+        display: none;
+    }
+    .background-about h2.title {
+        position: absolute;
+        top: 50%;
+        margin-left: 40%;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    .container{
+        padding-right:40px !important;
+        padding-left:40px !important;
+    }
+   /* drangon war  */
+    .dragon-left{
+        width:97%;
+    }
+    .dragon-right{
+        width:98%;
+        margin-top:1rem;
+    }
+    /* games - operating */
+    .colum1{
+        width:98%;
+        padding:2rem;
+        background-color: #100e2e;
+    }
+    .colum2{
+        width:98%;
+        margin-left:2rem;
+        margin-top:2rem;
+        padding-left:1rem;
+    }
+    /* games controller */
+    .control-left{
+        width:98%;
+    }
+    .control-right{
+        width:98%;
+        margin-top:1rem;
+    }
+    .back-to-top{
+        display: none;
+    }
+    /*contact */
+    .information{
+        width:98%;
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .compet-game{
+        width:98%;
+        padding:2rem 1rem;
+    }
+    .subscribe{
+        width:98%;
+        padding:2rem;
+    }
+}
+
+/* tablet  */
+@media only screen and (min-width:740px) and (max-width:1023px){
+    .search{
+        display: none;
+    }
+    .background-about h2.title {
+        position: absolute;
+        top: 50%;
+        margin-left: 40%;
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    /* drangon war  */
+    .dragon-left{
+        width:47%;
+    }
+    .dragon-right{
+        width:46%;
+    }
+    .download-btn{
+        display: flex;
+    }
+    .download-gplay{
+        background: #1e0d7f;
+        display: inline-block;
+        cursor: pointer;
+    
+        margin: 0px 7px;
+        padding: 7px 12px;
+        border-radius: 5px;
+        margin-top:1rem;
+       
+        transition: 0.4s;
+    }
+    .download-aplay{
+        background: #1e0d7f;
+        display: inline-block;
+        cursor: pointer;
+    
+        margin: 0px 10px;
+        padding: 7px 12px;
+        border-radius: 5px;
+        margin-top:1rem;
+       
+        transition: 0.4s;
+    }
+    /* games - operating */
+    .colum1{
+        width:47%;
+        padding:2rem;
+        background-color: #100e2e;
+    }
+    .colum2{
+        width:46%;
+        margin-left:2rem;
+        margin-top:2rem;
+        padding-left:1rem;
+    }
+    .back-to-top{
+        display: none;
+    }
+    /*contact */
+    .information{
+        width:49%;
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .compet-game{
+        width:49%;
+        padding:2rem 1rem;
+    }
+    .subscribe{
+        width:49%;
+        padding:2rem;
+    }
+    
+}

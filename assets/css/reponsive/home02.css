@@ -1,0 +1,276 @@
+/* Reponsive Mobile  */
+@media only screen and (max-width:739px){
+    .container{
+        width:300px !important;
+    }
+    /*menu */
+    .search{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .layer1-1 h1 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 30px;
+        letter-spacing: 0px;
+    }
+    .layer1-2{
+        display: none;
+    }
+    .layer1-3 a {
+        margin-top: 0px;
+        padding: 8px 0px !important;
+        border: 1px solid #EC9123;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 14px !important;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        transition: all 0.4s ease 0s;
+        background: #EC9123;
+        width: 130px !important;
+        border-radius: 2px;
+    }
+    #quaylai{
+        display: none;
+    }
+    /* our game */
+    .title-our-game{
+        font-size:30px;
+    }
+    /* main3 game studio */
+    .img-1{
+        width:98%;
+    }
+    .img-2{
+        width:98%;
+        margin-top:1rem;
+    }
+    .img-3{
+        width:98%;
+        margin-top:1rem;
+    }
+    .content-1,.content-2, .content-3{
+        width:98%;
+        margin-top:1rem;
+    }
+    /* main4 - counter */
+    .counter-left{
+        width:97%;
+    }
+    .counter-right{
+        width:98%;
+        margin-top:1rem;
+        
+    }
+    .total{
+        width:49%;
+    }
+    .player{
+        width:49%;
+    }
+    .count{
+        color: #fff;
+        display: block;
+        font-size: 25px;
+        padding-bottom: 8px;
+        line-height: 34px;
+        font-weight: 600;
+    }
+    .count-title{
+        font-size:1.2rem;
+    }
+    /* <!--about feature--> */
+    .content-expert h3{
+        font-size: 30px;
+    }
+    .member-team{
+        width:98%;
+        border: 1px solid #0d0b26;
+        background: #0d0b26;
+        margin-left:1.3rem;
+        padding:3rem 3rem;
+        margin-top:1rem;
+    }
+    
+    /* brand */
+    .single-brand a{
+        margin-top: 2rem;
+    }
+    /* competition */
+    .title-our-gallery {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+    .competition-left{
+        width:98%;
+    }
+    .competition-right{
+        width:98%;
+    }
+    .title-tab-competition{
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    .tab-img{
+        display: none;
+    }
+    /* game new */
+    /* game-news */
+.game-item{
+    width:98%;
+    margin-top:1rem;
+}
+.game-img{
+    position: relative;
+   
+    overflow: hidden;
+}
+.game-img img{
+    display: block;
+    transform: scale(1.1); 
+     transition: 0.4s;
+ }
+ .game-item:hover .game-img img{
+    transform: scale(1); 
+    transition: 0.4s;
+}
+
+.game-content{
+    display: block;
+    background: #0d0b26;
+    padding: 20px;
+}
+.game-content .game-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.game-content .game-title:hover{
+    color:#EC9123;
+}
+.game-new{
+    border-bottom: 1px solid #fff;
+}
+    /*contact */
+    .information{
+        width:98%;
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .compet-game{
+        width:98%;
+        padding:2rem 1rem;
+    }
+    .subscribe{
+        width:98%;
+        padding:2rem;
+    }
+}
+
+/* tablet  */
+@media only screen and (min-width:740px) and (max-width:1023px){
+   
+    .search{
+        display: none;
+    }
+    .layer1-1 h1 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 30px;
+        letter-spacing: 0px;
+    }
+    /* .layer1-2{
+        display: none;
+    } */
+    .layer1-3 a {
+        margin-top: 0px;
+        padding: 8px 0px !important;
+        border: 1px solid #EC9123;
+        color: #fff;
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 14px !important;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        transition: all 0.4s ease 0s;
+        background: #EC9123;
+        width: 130px !important;
+        border-radius: 2px;
+    }
+    .background-about h2.title {
+        position: absolute;
+        top: 50%;
+        margin-left: 35%;
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    #quaylai{
+        display: none;
+    }
+    /* about feature */
+    .single-about{
+        display: block;
+        position: relative;
+        padding: 10px 30px;
+        margin-top:3rem;
+        width:48%;
+        margin-right:10px;
+        /*color */
+        border: 1px solid #0d0b26;
+        background: #0d0b26;
+    }
+    /* Our Experts */
+    .Team{
+        display: flex;
+    }
+    .member-team{
+        width:45%;
+        margin-top:1rem;
+
+        border: 1px solid #0d0b26;
+        background: #0d0b26;
+    }
+    .img-member{
+        margin-left:20%;
+    }
+    /* competition */
+    .title-our-gallery {
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+    .competition-left{
+        width:47%;
+    }
+    .competition-right{
+        width:48%;
+    }
+    .tab-competition{
+       display: block;
+       font-size: 1.2rem;
+    }
+    /*contact */
+    .information{
+        width:48%;
+        padding-left:1rem;
+        padding-right:1rem;
+    }
+    .compet-game{
+        width:49%;
+        padding:2rem 1rem;
+    }
+    .subscribe{
+        width:49%;
+        padding:2rem;
+    }
+    
+}
